@@ -26,6 +26,9 @@ MYSQL_PASSWORD
 4) User can use the access token to get user information and verify access token by calling the Verify and Refresh endpoint 
 5) Upon successful verify and extend call, user will get back user information(such as role, name) and an extended timestamp
 
+#Video Tutorial
+https://www.youtube.com/watch?v=QFKLSFgRJUQ
+
 # API
 ## Register
 ### POST /v1/register?name={NAME}&email={EMAIL}&password={PASSWORD}&role={ROLE}
